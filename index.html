@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chandrapal Singh | Deep Learning Researcher</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f2f4f8;
+      color: #2c3e50;
+      line-height: 1.6;
+    }
+    header {
+      background: #1e3a8a;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      animation: fadeDown 1s ease-out;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      background: #0f172a;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #ddd;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #60a5fa;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background: white;
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s forwards;
+    }
+
+    section h2 {
+      margin-top: 0;
+      color: #1e3a8a;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+      nav a {
+        margin: 0 8px;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Chandrapal Singh</h1>
+    <p>Deep Learning Researcher | AI Developer | PhD Scholar</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#publications">Publications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+
+    <section id="about">
+      <h2>🔍 About Me</h2>
+      <p>I am a passionate Deep Learning researcher and PhD scholar working on real-world AI challenges in domains such as medical imaging (OCTA, MRI), environmental systems (STP automation), and satellite image analysis.</p>
+      <p>I design and build <strong>complex deep learning architectures from scratch</strong> — including CNN-BiLSTM hybrids, self-attention networks, GANs, Transformer-based modules, Capsule Networks, and GNNs.</p>
+      <p>My research has been published in top journals like <strong>Springer Cluster Computing</strong>, <strong>Elsevier Computers & Structures</strong>, and <strong>Springer LNNS</strong> conference series.</p>
+    </section>
+
+<section id="projects">
+  <h2>🧠 Key Projects</h2>
+  <ul>
+    <li>
+      <strong>GloCal-ResSAMNet:</strong> 
+      A hybrid segmentation model combining Segment Anything Model (SAM), GNN-based vessel topology learning, and ResUNet++ for precise artery, vein, and capillary segmentation in OCTA images.
+    </li>
+    <li>
+      <strong>ASDCBNet-WWTP:</strong> 
+      An attention-enabled CNN-BiLSTM architecture developed for real-time multi-parameter monitoring and forecasting of sewage treatment plants (STPs), ensuring optimized water management.
+    </li>
+    <li>
+      <strong>SatelliteSR-GAN:</strong> 
+      GAN-based satellite image super-resolution using RRDB backbone, Swin Transformer encoder, and hybrid attention for reconstructing high-resolution Earth imagery from low-res inputs.
+    </li>
+    <li>
+      <strong>GrapeLeaf-MaskRCNN:</strong> 
+      Grape leaf disease classification using Mask R-CNN for precise region segmentation, handcrafted texture features, and a Swin Transformer backbone enhanced with CBAM for attention learning.
+    </li>
+    <li>
+      <strong>CKD-EnsembleNet:</strong> 
+      An ensemble deep learning framework for chronic kidney disease detection using stacked autoencoders, CapsNet, GB-DNN classifiers, and LSTM for feature fusion and diagnosis prediction.
+    </li>
+    <li>
+      <strong>Hybrid HBF-SIC-DRL:</strong> 
+      Deep Reinforcement Learning-based Hybrid Beamforming + Successive Interference Cancellation architecture for 5G MU-MIMO environments, targeting low-latency communication.
+    </li>
+    <li>
+      <strong>Multimodal Biometric Auth:</strong> 
+      Deep multimodal biometric authentication system using ECG and lip-motion signals with hybrid deep models including 1D CNNs, GRUs, and attention modules for robust identity recognition.
+    </li>
+    <li>
+      <strong>SAM-OCTA500:</strong> 
+      Fine-tuned Segment Anything Model (SAM) with LoRA on the OCTA500 dataset for capillary and vessel segmentation, optimized for few-shot medical imaging tasks.
+    </li>
+  </ul>
+</section>
+
+
+    <section id="skills">
+      <h2>💻 Programming Languages & Tools</h2>
+      <ul>
+        <li><strong>Languages:</strong> Python, C++, MATLAB, Bash, HTML, LaTeX</li>
+        <li><strong>Frameworks:</strong> PyTorch, TensorFlow, Keras, OpenCV, scikit-learn, FastAI</li>
+        <li><strong>Tools:</strong> Git, GitHub, Jupyter, VS Code, Google Colab, Docker</li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>📄 Publications</h2>
+      <ul>
+        <li><a href="https://link.springer.com/article/10.1007/s10586-022-03630-2" target="_blank">An Ensemble Deep Learning Framework for Multi-label Classification of Grape Leaf Diseases</a> – Springer Cluster Computing, 2022.</li>
+        <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0045790622007844" target="_blank">Optimized Deep Convolutional Neural Network for Structural Health Monitoring</a> – Elsevier Computers & Structures, 2022.</li>
+        <li><a href="https://link.springer.com/chapter/10.1007/978-981-16-1342-5_75" target="_blank">DL-Based Secured Underwater Communication Using Chaotic Optical Encoder</a> – Springer LNNS, 2021.</li>
+        <li><strong>ASDCBNet: A Three Stage Attention Enabled Stacked Deep CNN-BiLSTM Model for End-to-End Monitoring of Wastewater Treatment Plant</strong> – Applied Water Sciences, 2025.</li>
+        <li><strong>Grape Leaf Disease Detection through Hierarchical Features, Mask R-CNN Segmentation, and Self-Attention Networks</strong> – Under Review.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>📬 Contact</h2>
+      <p>Email: narukachandra@gmail.com</p>
+      <p>GitHub: <a href="https://github.com/chandrapal-singh-n" target="_blank">@chandrapal</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/chandrapal" target="_blank">linkedin.com/in/chandrapal</a></p>
+    </section>
+
+  </div>
+
+</body>
+</html>
